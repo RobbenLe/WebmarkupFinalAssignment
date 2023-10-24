@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(242, 69, 7);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+}
+
+.logo1 {
+  width: 100px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.ul-item {
+  display: flex;
+  list-style: none;
+  font-size: 22px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.nav-item-link {
+  border-radius: 0.5rem;
+  background-color: rgb(242, 69, 7);
+  margin: 0rem 1rem;
+}
+
+.nav-item-link:hover {
+  background-color: white;
+}
+
+/*first-section*/
+.first-section {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 50px;
+  color: rgb(45, 45, 98);
+  margin-top: 50px;
+}
+
+.p1 {
+  font-size: 25px;
+}
+
+/*Second-section*/
+.Second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("https://th.bing.com/th/id/R.92db8785dcb812e95262c4b32c139193?rik=42aHN5RtyVUGdg&pid=ImgRaw&r=0");
+}
+
+.form {
+  width: 600px;
+  height: 850px;
+  background-color: rgb(230, 82, 28);
+  border-radius: 20px;
+  margin-top: 75px;
+}
+
+.radiobutton {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  height: 100px;
+}
+
+.label1 {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.label2 {
+  font-size: 25px;
+}
+
+.label3 {
+  font-size: 25px;
+}
+
+.label4 {
+  font-size: 25px;
+}
+
+.choice1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.choice2 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.choice3 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/*Third-section*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #959592;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+label {
+  font-size: 20px;
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(242, 69, 7);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
